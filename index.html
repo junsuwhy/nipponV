@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>測試</title>
+<link rel="stylesheet" href="css\style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css\bootstrap.css" type="text/css" media="screen" />
+<script src="js\jquery-1.11.0.min.js"></script>
+<script src="js\jquery-ui-1.10.4.min.js"></script>
+<script src="js\d3.v3.js"></script>
+<!-- <script src="js\bootstrap.js"></script> -->
+<script src="js\nipponV.js"></script>
+
+    
+
+</head>
+<body>
+  <div id="standby" style="display:none;">
+    <div class="card">
+      <h3 class="word">卡片<h3>
+    </div>
+  </div>
+<div id="container">
+
+<div id='title'>
+<h1>日文動詞大挑戰</h1>
+<h3>是I按左，是II按右</h3>
+</div>
+
+<div id='scene1'>
+
+<button id='btn_start' class='btn btn-primary dropdown-toggle'>按下 enter 鍵開始</button>
+
+</div>
+
+
+<div id='scene2' style="display: none;">
+  <div id='info'>
+    這是第<span id='rounds'>?</span>題,
+    目前答對<span id='corrects'>?</span>題,
+    連續答對<span id='combos'>?</span>題
+  </div>
+  <div id="remove_que"></div>
+  <div id="question"></div>  
+  <div class="ctl-button">
+    <button id='left' class='btn btn-primary dropdown-toggle'><pre><</pre> I類動詞</button>
+    <button id='right' class='btn btn-primary dropdown-toggle'><pre>></pre>II類動詞</button>
+  </div>
+  
+</div>
+
+
+
+<div id='scene3' style="display: none;">
+  <div id='final'>
+    恭禧你答對<span id='final_correct'>?</span>題<br>
+  </div>
+  <button id='btn_restart' class='btn btn-primary dropdown-toggle'>按下 enter 鍵從頭開始</button>
+</div>
+
+
+</div>
+
+</body>
+</html>
